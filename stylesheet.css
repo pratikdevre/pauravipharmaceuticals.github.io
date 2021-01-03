@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.img{
+    height: 150px;
+    width: 150px;
+    padding: 7px;
+    margin: -35px;
+    margin-left: 27px;
+}
+
+.distance{
+    margin-left: 50px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.distance:hover{
+    background-color: rgb(34, 30, 25);
+    border-radius: 10px;
+}
