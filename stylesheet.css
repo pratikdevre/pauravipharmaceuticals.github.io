@@ -5,9 +5,10 @@ body{
 .img{
     height: 150px;
     width: 150px;
-    padding: 33px;
-    margin: -43px;
-    margin-left: 10px;
+    padding: 7px;
+    margin: -30px;
+    border-radius: 85px;
+    margin-left: 15px;
 }
 
 .distance{
