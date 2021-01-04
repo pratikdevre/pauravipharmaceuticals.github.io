@@ -1,13 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 .img{
     height: 150px;
     width: 150px;
     padding: 7px;
-    margin: -35px;
-    margin-left: 27px;
+    margin: -43px;
+    margin-left: 15px;
 }
 
 .distance{
@@ -18,4 +15,19 @@
 .distance:hover{
     background-color: rgb(34, 30, 25);
     border-radius: 10px;
+}
+
+#product{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.mycard{
+    border:3px solid red;
+    border-radius: 8px;
+    width: 250px;
+    padding: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
