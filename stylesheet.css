@@ -1,4 +1,7 @@
-
+body{
+    font-family: 'Staatliches', cursive;
+    background-color: rgb(250, 237, 220);
+}
 .img{
     height: 150px;
     width: 150px;
@@ -9,12 +12,23 @@
 
 .distance{
     margin-left: 50px;
-    font-size: larger;
-    font-weight: bolder;
+    font-size: 20px;
+    font-weight: 500px;
 }
 .distance:hover{
     background-color: rgb(34, 30, 25);
     border-radius: 10px;
+}
+#product_heading{
+    text-align: center;
+    margin: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#product_heading:hover{
+    /* font-size: 35px; */
+    color: rgb(46, 19, 19);
+    font-weight: bolder;
 }
 
 #product{
@@ -24,10 +38,38 @@
     justify-content: space-evenly;
 }
 .mycard{
-    border:3px solid red;
+    /* border:2px solid rgb(116, 98, 98); */
     border-radius: 8px;
     width: 250px;
     padding: 30px;
     margin-left: 20px;
     margin-bottom: 20px;
+    background-color: rgb(220, 223, 182);
+}
+.mycard:hover{
+    border: 3px solid green;
+    background-color: rgb(142, 214, 160);
+}
+.mycard h3{
+    font-weight: bolder;
+    color: rgb(128, 80, 22);
+    text-align: center;
+}
+.mycard h3:hover{
+    color: rgb(179, 53, 53);
+}
+.mycard a{
+    text-decoration: none;
+}
+.mycard p{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+footer{
+    background-color: rgb(48, 45, 45);
+    color: whitesmoke;
+    height: 80px;
+    padding: 20px;
+    font-family: 'Roboto Slab', serif;
+
 }
