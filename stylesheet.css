@@ -5,9 +5,9 @@ body{
 .img{
     height: 150px;
     width: 150px;
-    padding: 7px;
+    padding: 33px;
     margin: -43px;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 .distance{
@@ -86,7 +86,7 @@ body{
 .client-logo{
     width: 100px;
     height: 100px;
-    margin: 40px;
+    margin: 20px;
 }
 .client-logo:hover{
     width: 105px;
@@ -96,6 +96,14 @@ body{
 .container{
     background: rgb(253, 253, 253);
     border-radius: 20px;
+}
+
+#footer_top{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Rubik', sans-serif;
 }
 
 footer{
