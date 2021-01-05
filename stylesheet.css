@@ -7,14 +7,11 @@ body{
     background: rgb(44, 42, 42);
     height: 25px;
 }
-/* .img{
+.img{
     height: 150px;
     width: 150px;
-    padding: 7px;
-    margin: -30px;
-    border-radius: 85px;
-    margin-left: 15px;
-} */
+    border-radius: 50px;
+}
 
 .distance{
     margin-left: 50px;
@@ -44,7 +41,6 @@ body{
     justify-content: space-evenly;
 }
 .mycard{
-    /* border:2px solid rgb(116, 98, 98); */
     border-radius: 8px;
     width: 250px;
     padding: 30px;
@@ -91,13 +87,13 @@ body{
     justify-content: space-between;
 }
 .client-logo{
-    width: 100px;
-    height: 100px;
-    margin: 20px;
+    width: 80px;
+    height: 80px;
+    margin: 25px;
 }
 .client-logo:hover{
-    width: 105px;
-    height: 105px;
+    width: 84px;
+    height: 84px;
 }
 
 .container{
