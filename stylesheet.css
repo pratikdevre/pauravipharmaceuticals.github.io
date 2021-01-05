@@ -1,15 +1,20 @@
 body{
     font-family: 'Staatliches', cursive;
-    background-color: rgb(230, 224, 216);
+    /* background-color: rgb(230, 224, 216); */
 }
-.img{
+#topbar{
+    text-align: center;
+    background: rgb(44, 42, 42);
+    height: 25px;
+}
+/* .img{
     height: 150px;
     width: 150px;
     padding: 7px;
     margin: -30px;
     border-radius: 85px;
     margin-left: 15px;
-}
+} */
 
 .distance{
     margin-left: 50px;
@@ -48,8 +53,9 @@ body{
     background-color: rgb(220, 223, 182);
 }
 .mycard:hover{
-    border: 3px solid green;
-    background-color: rgb(142, 214, 160);
+    border: 3px solid  rgb(48, 45, 45);
+    background-color: rgb(48, 45, 45);
+    color: whitesmoke;
 }
 .mycard h3{
     font-weight: bolder;
@@ -105,6 +111,9 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     font-family: 'Rubik', sans-serif;
+    padding: 100px;
+    background-color: rgb(58, 52, 52);;
+    color: whitesmoke;
 }
 
 footer{
