@@ -241,15 +241,18 @@ footer{
 .team{
     display: flex;
     flex-wrap: wrap;
-    padding: 100px;
+    padding: 30px;
 }
+
 .card{
     background-color: whitesmoke;
     box-shadow: 10px 10px 15px black;
 }
+
 .founder{
     padding: 100px;
 }
+
 .founder h3{
     font-weight: bolder;
     color: rgb(235, 53, 12);
