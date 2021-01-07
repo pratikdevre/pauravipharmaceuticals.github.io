@@ -1,17 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
 body{
     font-family: 'Staatliches', cursive;
     /* background-color: rgb(77, 75, 74); */
     scroll-behavior: smooth;
 }
+
+#main_heading{
+    font-size: 27px;
+    color: whitesmoke;
+    margin: 10px;
+    text-shadow: 1px 2px rgb(13, 211, 72);
+}
+
 #topbar{
     text-align: center;
     background: rgb(44, 42, 42);
     height: 25px;
+    margin-top: 105px;
 }
+
 .img{
     height: 150px;
     width: 150px;
     border-radius: 50px;
+}
+
+.fixed{
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1;
+    opacity: 0.8;
 }
 
 .distance{
@@ -19,10 +41,12 @@ body{
     font-size: 20px;
     font-weight: 500px;
 }
+
 .distance:hover{
     background-color: rgb(34, 30, 25);
     border-radius: 10px;
 }
+
 #product_heading{
     text-align: center;
     margin-bottom: 30px;
@@ -43,12 +67,14 @@ body{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 #container{
     background-color: rgb(75, 72, 72);
     background-image: url("imgs/bg.jpg");
     border-bottom-left-radius: 50px;
     border-top-right-radius: 50px;
 }
+
 .mycard{
     border-radius: 8px;
     width: 250px;
@@ -56,23 +82,32 @@ body{
     margin-left: 20px;
     margin-bottom: 20px;
     background-color: rgb(220, 223, 182);
+    
+    /* margin: 5px; */
 }
+
 .mycard:hover{
     border: 3px solid  rgb(48, 45, 45);
     background-color: rgb(48, 45, 45);
     color: whitesmoke;
 }
+
 .mycard h3{
     font-weight: bolder;
     color: rgb(128, 80, 22);
     text-align: center;
+    box-shadow: 5px 5px 15px black;
+    border-radius: 20px;
 }
+
 .mycard h3:hover{
     color: rgb(179, 53, 53);
 }
+
 .mycard a{
     text-decoration: none;
 }
+
 .mycard p{
     text-align: center;
     font-family: 'Roboto Slab', serif;
@@ -95,14 +130,11 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .client-logo{
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     margin: 25px;
-}
-.client-logo:hover{
-    width: 84px;
-    height: 84px;
 }
 
 .container{
@@ -115,12 +147,33 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    font-family: 'Rubik', sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
+    font-family: 'Kufam', cursive;
     padding: 50px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     background-color: rgb(58, 52, 52);;
     color: whitesmoke;
+
+    position: sticky;
+    top: 100%; 
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.useful_links li{
+      padding-bottom: 20px;
+      list-style: none;
+}
+
+.useful_links li a{
+      text-decoration: none;
+      color: whitesmoke;
+      font-size: 14px;
+}
+
+.useful_links li a:hover{
+    font-weight: bolder;
 }
 
 footer{
@@ -129,5 +182,75 @@ footer{
     height: 80px;
     padding: 20px;
     font-family: 'Roboto Slab', serif;
+    position: sticky; 
+    top: 100%; 
+    width: 100%;
+    /* z-index: 1; */
+}
 
+/* about us page styling */
+
+#about_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 70px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#about_container h3{
+    font-weight: bolder;
+    color: rgb(235, 53, 12);
+    text-align: center;
+}
+
+.about{
+    padding: 10%;
+    background-color: whitesmoke;
+    box-shadow: -10px -10px 15px black;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.about_us{    
+    width: 300px;
+    height: 220px;
+    padding: 50px;
+    background-color: whitesmoke;
+    box-shadow: -10px -10px 15px black;
+    margin: 5px;
+}
+
+.about_us h4{
+    font-weight: bolder;
+    color: rgb(235, 53, 12);
+}
+
+.image{
+    height: 400px;
+    width: 400px;
+}
+
+.team{
+    display: flex;
+    padding: 100px;
+}
+.card{
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 15px black;
+}
+.founder{
+    padding: 100px;
+    
+}
+.founder h2{
+    font-weight: bolder;
+    color: rgb(235, 53, 12);
 }
