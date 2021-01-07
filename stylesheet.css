@@ -240,6 +240,7 @@ footer{
 
 .team{
     display: flex;
+    flex-wrap: wrap;
     padding: 100px;
 }
 .card{
@@ -248,9 +249,8 @@ footer{
 }
 .founder{
     padding: 100px;
-    
 }
-.founder h2{
+.founder h3{
     font-weight: bolder;
     color: rgb(235, 53, 12);
 }
