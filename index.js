@@ -1,105 +1,75 @@
-function changeimage1() {
-    document.getElementById("logo1").src = "imgs/logo1.jpeg";
+let all_product = document.getElementById('all_product');
+let covid = document.getElementById('19');
+let ayurveda = document.getElementById('ayur');
+let surgical = document.getElementById('surgi');
+let allopathic = document.getElementById('allo');
+let immun = document.getElementById('immu');
+let other = document.getElementById('others');
+
+let all_product_id = document.getElementById('all_product_id');
+let covid_id = document.getElementById('covid_id');
+let ayurveda_id = document.getElementById('ayurveda_id');
+let surgical_id = document.getElementById('surgical_id');
+let allopathic_id = document.getElementById('allopathic_id');
+let immun_id = document.getElementById('immun_id');
+let other_id = document.getElementById('other_id');
+
+
+
+function allproducts() {
+    covid.style.display = "block";
+    all_product.style.display = "block";
+    ayurveda.style.display = "block";
+    surgical.style.display = "block";
+    allopathic.style.display = "block";
+    immun.style.display = "block";
+    other.style.display = "block";
 }
-function changeimage_1() {
-    document.getElementById("logo1").src = "imgs/logo_1.jpeg";
+function covid_fun() {
+    covid.style.display = "block";
+    ayurveda.style.display = "none";
+    surgical.style.display = "none";
+    allopathic.style.display = "none";
+    immun.style.display = "none";
+    other.style.display = "none";
 }
-
-
-
-function changeimage4() {
-    document.getElementById("logo4").src = "imgs/logo4.jpeg";
+function allo_fun() {
+    covid.style.display = "none";
+    ayurveda.style.display = "none";
+    surgical.style.display = "none";
+    allopathic.style.display = "block";
+    immun.style.display = "none";
+    other.style.display = "none";
 }
-function changeimage_4() {
-    document.getElementById("logo4").src = "imgs/logo_4.png";
+function ayur_fun() {
+    covid.style.display = "block";
+    ayurveda.style.display = "block";
+    surgical.style.display = "none";
+    allopathic.style.display = "none";
+    immun.style.display = "none";
+    other.style.display = "none";
 }
-
-
-
-function changeimage2() {
-    document.getElementById("logo2").src = "imgs/logo2.jpeg";
+function surgi_fun() {
+    covid.style.display = "none";
+    ayurveda.style.display = "none";
+    surgical.style.display = "block";
+    allopathic.style.display = "none";
+    immun.style.display = "none";
+    other.style.display = "none";
 }
-function changeimage_2() {
-    document.getElementById("logo2").src = "imgs/logo_2.jpeg";
+function immun_fun() {
+    covid.style.display = "none";
+    ayurveda.style.display = "none";
+    surgical.style.display = "none";
+    allopathic.style.display = "none";
+    immun.style.display = "block";
+    other.style.display = "none";
 }
-
-
-
-function changeimage3() {
-    document.getElementById("logo3").src = "imgs/logo3.jpeg";
-}
-function changeimage_3() {
-    document.getElementById("logo3").src = "imgs/logo_3.jpeg";
-}
-
-
-
-function changeimage13() {
-    document.getElementById("logo13").src = "imgs/logo13.jpeg";
-}
-function changeimage_13() {
-    document.getElementById("logo13").src = "imgs/logo_13.jpeg";
-}
-
-
-
-function changeimage6() {
-    document.getElementById("logo6").src = "imgs/logo6.jpeg";
-}
-function changeimage_6() {
-    document.getElementById("logo6").src = "imgs/logo_6.png";
-}
-
-
-
-function changeimage10() {
-    document.getElementById("logo10").src = "imgs/logo10.jpeg";
-}
-function changeimage_10() {
-    document.getElementById("logo10").src = "imgs/logo_10.jpeg";
-}
-
-
-
-function changeimage7() {
-    document.getElementById("logo7").src = "imgs/logo7.jpeg";
-}
-function changeimage_7() {
-    document.getElementById("logo7").src = "imgs/logo_7.jpeg";
-}
-
-
-
-function changeimage5() {
-    document.getElementById("logo5").src = "imgs/logo5.jpeg";
-}
-function changeimage_5() {
-    document.getElementById("logo5").src = "imgs/logo_5.jpg";
-}
-
-
-
-function changeimage8() {
-    document.getElementById("logo8").src = "imgs/logo8.jpeg";
-}
-function changeimage_8() {
-    document.getElementById("logo8").src = "imgs/logo_8.jpeg";
-}
-
-
-
-function changeimage9() {
-    document.getElementById("logo9").src = "imgs/logo9.jpeg";
-}
-function changeimage_9() {
-    document.getElementById("logo9").src = "imgs/logo_9.jpeg";
-}
-
-
-
-function changeimage11() {
-    document.getElementById("logo11").src = "imgs/logo11.jpeg";
-}
-function changeimage_11() {
-    document.getElementById("logo11").src = "imgs/logo_11.jpeg";
+function other_fun() {
+    covid.style.display = "block";
+    ayurveda.style.display = "none";
+    surgical.style.display = "none";
+    allopathic.style.display = "none";
+    immun.style.display = "none";
+    other.style.display = "other";
 }

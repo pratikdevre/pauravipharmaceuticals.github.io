@@ -1,24 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Kufam:ital,wght@1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,500&display=swap');
 
 .active{
     background-color: rgb(0, 255, 136);
     border-radius: 10px;
     color: whitesmoke;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body{
-    font-family: 'Staatliches', cursive;
-    scroll-behavior: smooth;
-    font-family: 'Yeon Sung', cursive;
+    font-family: 'Comic Neue', cursive;
 }
 
 #main_heading{
     font-size: 27px;
     color: whitesmoke;
     margin: 10px;
-    text-shadow: 1px 2px rgb(13, 211, 72);
+    font-family: 'Rubik', sans-serif;
 }
 
 #topbar{
@@ -41,8 +41,9 @@ body{
     width: 100%; 
     z-index: 1;
     opacity: .9;
-    box-shadow: 8px 10px 10px black;
+    box-shadow: 8px 10px 35px black;
 }
+
 
 .distance{
     margin-left: 50px;
@@ -58,7 +59,6 @@ body{
 #product_heading{
     text-align: center;
     margin-bottom: 30px;
-    font-family: 'Roboto Slab', serif;
     font-size: 35px;
     font-weight: bolder;
     color: whitesmoke;
@@ -90,8 +90,6 @@ body{
     margin-left: 20px;
     margin-bottom: 20px;
     background-color: rgb(220, 223, 182);
-    
-    /* margin: 5px; */
 }
 
 .mycard:hover{
@@ -104,7 +102,7 @@ body{
     font-weight: bolder;
     color: rgb(128, 80, 22);
     text-align: center;
-    box-shadow: 5px 5px 15px black;
+    box-shadow: 5px 5px 25px black;
     border-radius: 20px;
 }
 
@@ -118,13 +116,11 @@ body{
 
 .mycard p{
     text-align: center;
-    font-family: 'Roboto Slab', serif;
 }
 
 #client_heading{
     text-align: center;
     margin: 30px;
-    font-family: 'Roboto Slab', serif;
 }
 
 #client_heading h1:hover{
@@ -155,33 +151,25 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* font-family: 'Rubik', sans-serif; */
-    font-family: 'Kufam', cursive;
-    padding: 50px;
+    padding: 50px 150px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     background-color: rgb(58, 52, 52);;
     color: whitesmoke;
-
     position: sticky;
     top: 100%; 
     width: 100%;
     margin-bottom: 80px;
 }
 
+.useful_links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .useful_links li{
-      padding-bottom: 20px;
       list-style: none;
-}
-
-.useful_links li a{
-      text-decoration: none;
-      color: whitesmoke;
-      font-size: 14px;
-}
-
-.useful_links li a:hover{
-    font-weight: bolder;
 }
 
 footer{
@@ -189,11 +177,9 @@ footer{
     color: whitesmoke;
     height: 80px;
     padding: 20px;
-    font-family: 'Roboto Slab', serif;
     position: sticky; 
     top: 100%; 
     width: 100%;
-    /* z-index: 1; */
 }
 
 .footer_smb{
@@ -202,12 +188,13 @@ footer{
 
 .fa{
     font-size:20px;
-    color: rgb(27, 96, 225);
+    color: rgb(216, 220, 226);
     margin: 10px;
 }
 
 .fa:hover{
-    color: orangered
+    color: orangered;
+    font-weight: bolder;
 }
 
 /* about us page styling */
@@ -218,7 +205,6 @@ footer{
     justify-content: center;
     flex-wrap: wrap;
     padding: 70px;
-    font-family: 'Roboto Slab', serif;
 }
 
 #about_container h3{
@@ -230,7 +216,7 @@ footer{
 .about{
     padding: 10%;
     background-color: whitesmoke;
-    box-shadow: -10px -10px 15px black;
+    box-shadow: -10px -10px 85px black;
 }
 
 .box{
@@ -245,7 +231,7 @@ footer{
     height: 220px;
     padding: 50px;
     background-color: whitesmoke;
-    box-shadow: -10px -10px 15px black;
+    box-shadow: -10px -10px 85px black;
     margin: 5px;
     margin-bottom: 20px
 }
@@ -267,9 +253,9 @@ footer{
     padding: 30px;
 }
 
-.card{
+.vishal{
     background-color: whitesmoke;
-    box-shadow: 10px 10px 15px black;
+    box-shadow: 10px 10px 85px black;
 }
 
 .founder{
@@ -283,16 +269,16 @@ footer{
 
 /* contact page section  */
 form{
-    /* border:2px solid red; */
     margin: 50px;
     padding: 20px;
     background-color: whitesmoke;
-    box-shadow: 10px 10px 10px black;
-    font-family: 'Yeon Sung', cursive;
+    box-shadow: 10px 10px 85px black;
 }
+
 .center{
     width: 70%;
 }
+
 .location{
     text-align: center;
     margin: 50px;
@@ -301,10 +287,88 @@ form{
     justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: whitesmoke;
-    box-shadow: 10px 10px 10px black;
-    font-family: 'Yeon Sung', cursive;
+    box-shadow: 10px 10px 85px black;
 
 }
+
+/* our products section  */
+.fixed_product_row{
+    overflow: hidden;
+    position: fixed; 
+    top: 146px;
+    width: 100%;
+    opacity: .9;
+    z-index: 1;
+    
+}
+
+#all_product{
+    margin: 100px 10px;
+}
+
+#product_row{
+    height: 40px;
+    padding: 5px;
+    background-color: rgb(44, 42, 42);
+}
+
+#product_row ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#product_row li{
+    list-style: none;
+    background-color: rgb(43, 1, 1);
+    border-radius: 10px;
+    padding: 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+#product_row li:hover{
+      color: red;
+}
+
+.product_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 5px;
+}
+
+.products_cards{
+    margin: 15px;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 5px 85px black;
+}
+
+.card-body h3{
+    margin: 10px;
+}
+
+.card-body h5{
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* media queries for contact page  */
 @media screen and (max-width: 600px) {
     form{
@@ -324,6 +388,14 @@ form{
     .location{
         margin: 15px;
         padding: 9px;
+    }
+    #footer_top{
+        padding:50px 80px;
+    }
+    
+    .fa{
+        font-size:18px;
+        margin: 8px;
     }
 }
 @media screen and (max-width: 320px) {
