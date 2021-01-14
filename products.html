@@ -20,7 +20,8 @@
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon" id="menu" onclick="show()"></span>
+            <span><i class="fa fa-times" id="cross" style="color: red; font-size: 19x;" onclick="collapse()"></i></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -53,17 +54,6 @@
         </div>
     </section>
 
-
-
-
-
-
-
-
-
-
-
-
     <div>
         <div id="product_row" class="fixed_product_row">
             <ul>
@@ -78,311 +68,311 @@
         </div>
 
         <div id="all_product">
-            <div id="19">
-            <div id="covid" class="product_flex">
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/1.jpg" class="card-img-top" alt="img 1">
-                    <div class="card-body">
-                        <h3>N95 Mask</h3>
-                        <p class="card-text">N95 With and Without Filter
-                            3Ply Masks</p>
-                        <h5>Stock Available</h5>
-                    </div>
-                </div>
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/2.jpg" class="card-img-top" alt="img 2">
-                    <div class="card-body">
-                        <h3>Sanitizer</h3>
-                        <p class="card-text">Available in <br> 100ml, 500ml & 1Ltr.</p>
-                        <h5>Stock Available</h5>
-                    </div>
-                </div>
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/3.jpg" class="card-img-top" alt="img 3">
-                    <div class="card-body">
-                        <h3>Face Shield</h3>
-                        <p class="card-text">High Quality Face Shield
-                            Available.</p>
-                        <h5>Stock Available</h5>
-                    </div>
-                </div>
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/4.jpg" class="card-img-top" alt="img 4">
-                    <div class="card-body">
-                        <h3>Sanitizer Dispenser</h3>
-                        <h5>Stock Available</h5>
-                    </div>
-                </div>
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/5.jpg" class="card-img-top" alt="img 5">
-                    <div class="card-body">
-                        <h3>6th Finger Non touch Device</h3>
-                        <h5>Stock Available</h5>
-                    </div>
-                </div>
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/6.jpg" class="card-img-top" alt="img 6">
-                    <div class="card-body">
-                        <h3>PPE Kit</h3>
-                        <h5>Stock Available</h5>
-                    </div>
-                </div>
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/7.jpg" class="card-img-top" alt="img 7">
-                    <div class="card-body">
-                        <h3>Infrared Thermal Gun</h3>
-                        <h5>Stock Available</h5>
-                    </div>
-                </div>
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/8.jpg" class="card-img-top" alt="img 8">
-                    <div class="card-body">
-                        <h3>Immunity Booster</h3>
-                        <p>Shat-Plus
-                            Imky</p>
-                        <h5>Stock Available</h5>
-                    </div>
-                </div>
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/9.jpg" class="card-img-top" alt="img 9">
-                    <div class="card-body">
-                        <h3>Sodium Hypochlorite</h3>
-                        <p>For Surface Cleaning</p>
-                        <h5>Stock Available</h5>
-                    </div>
-                </div>
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/10.jpg" class="card-img-top" alt="img 10">
-                    <div class="card-body">
-                        <h3>Hand Wash</h3>
-                        <h5>Stock Available</h5>
-                    </div>
-                </div>
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/11.jpg" class="card-img-top" alt="img 11">
-                    <div class="card-body">
-                        <h3>Hand Gloves</h3>
-                        <h5>Stock Available</h5>
-                    </div>
-                </div>
-            </div></div>
-
             <div id="allo">
-            <div id="allopathic" class="product_flex">
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/12.jpg" class="card-img-top" alt="img 11">
-                    <div class="card-body">
-                        <h3>Antibiotics</h3>
-                        <h5>Stock Available</h5>
+                <div id="allopathic" class="product_flex">
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/12.jpg" class="card-img-top" alt="img 11">
+                        <div class="card-body">
+                            <h3>Antibiotics</h3>
+                            <h5>Stock Available</h5>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/13.jpg" class="card-img-top" alt="img 11">
-                    <div class="card-body">
-                        <h3>Nutrition & Vitamins</h3>
-                        <h5>Stock Available</h5>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/13.jpg" class="card-img-top" alt="img 11">
+                        <div class="card-body">
+                            <h3>Nutrition & Vitamins</h3>
+                            <h5>Stock Available</h5>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/14.jpg" class="card-img-top" alt="img 11">
-                    <div class="card-body">
-                        <h3>Skin & Hair</h3>
-                        <h5>Stock Available</h5>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/14.jpg" class="card-img-top" alt="img 11">
+                        <div class="card-body">
+                            <h3>Skin & Hair</h3>
+                            <h5>Stock Available</h5>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/15.jpg" class="card-img-top" alt="img 11">
-                    <div class="card-body">
-                        <h3>Dentistry</h3>
-                        <h5>Stock Available</h5>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/15.jpg" class="card-img-top" alt="img 11">
+                        <div class="card-body">
+                            <h3>Dentistry</h3>
+                            <h5>Stock Available</h5>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/16.jpg" class="card-img-top" alt="img 11">
-                    <div class="card-body">
-                        <h3>Neuro Drugs</h3>
-                        <h5>Stock Available</h5>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/16.jpg" class="card-img-top" alt="img 11">
+                        <div class="card-body">
+                            <h3>Neuro Drugs</h3>
+                            <h5>Stock Available</h5>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/17.jpg" class="card-img-top" alt="img 11">
-                    <div class="card-body">
-                        <h3>Cardiac Range</h3>
-                        <h5>Stock Available</h5>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/17.jpg" class="card-img-top" alt="img 11">
+                        <div class="card-body">
+                            <h3>Cardiac Range</h3>
+                            <h5>Stock Available</h5>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/18.jpg" class="card-img-top" alt="img 11">
-                    <div class="card-body">
-                        <h3>Harmones & Steroids</h3>
-                        <h5>Stock Available</h5>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/18.jpg" class="card-img-top" alt="img 11">
+                        <div class="card-body">
+                            <h3>Harmones & Steroids</h3>
+                            <h5>Stock Available</h5>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/19.jpg" class="card-img-top" alt="img 11">
-                    <div class="card-body">
-                        <h3>Anti Cancer</h3>
-                        <h5>Stock Available</h5>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/19.jpg" class="card-img-top" alt="img 11">
+                        <div class="card-body">
+                            <h3>Anti Cancer</h3>
+                            <h5>Stock Available</h5>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/20.jpg" class="card-img-top" alt="img 11">
-                    <div class="card-body">
-                        <h3>Anti-Diabetic Drugs</h3>
-                        <h5>Stock Available</h5>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/20.jpg" class="card-img-top" alt="img 11">
+                        <div class="card-body">
+                            <h3>Anti-Diabetic Drugs</h3>
+                            <h5>Stock Available</h5>
+                        </div>
                     </div>
                 </div>
-            </div></div>
+            </div>
+
+            <div id="19">
+                <div id="covid" class="product_flex">
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/1.jpg" class="card-img-top" alt="img 1">
+                        <div class="card-body">
+                            <h3>N95 Mask</h3>
+                            <p class="card-text">N95 With and Without Filter
+                                3Ply Masks</p>
+                            <h5>Stock Available</h5>
+                        </div>
+                    </div>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/2.jpg" class="card-img-top" alt="img 2">
+                        <div class="card-body">
+                            <h3>Sanitizer</h3>
+                            <p class="card-text">Available in <br> 100ml, 500ml & 1Ltr.</p>
+                            <h5>Stock Available</h5>
+                        </div>
+                    </div>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/3.jpg" class="card-img-top" alt="img 3">
+                        <div class="card-body">
+                            <h3>Face Shield</h3>
+                            <p class="card-text">High Quality Face Shield
+                                Available.</p>
+                            <h5>Stock Available</h5>
+                        </div>
+                    </div>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/4.jpg" class="card-img-top" alt="img 4">
+                        <div class="card-body">
+                            <h3>Sanitizer Dispenser</h3>
+                            <h5>Stock Available</h5>
+                        </div>
+                    </div>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/5.jpg" class="card-img-top" alt="img 5">
+                        <div class="card-body">
+                            <h3>6th Finger Non touch Device</h3>
+                            <h5>Stock Available</h5>
+                        </div>
+                    </div>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/6.jpg" class="card-img-top" alt="img 6">
+                        <div class="card-body">
+                            <h3>PPE Kit</h3>
+                            <h5>Stock Available</h5>
+                        </div>
+                    </div>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/7.jpg" class="card-img-top" alt="img 7">
+                        <div class="card-body">
+                            <h3>Infrared Thermal Gun</h3>
+                            <h5>Stock Available</h5>
+                        </div>
+                    </div>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/8.jpg" class="card-img-top" alt="img 8">
+                        <div class="card-body">
+                            <h3>Immunity Booster</h3>
+                            <p>Shat-Plus
+                                Imky</p>
+                            <h5>Stock Available</h5>
+                        </div>
+                    </div>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/9.jpg" class="card-img-top" alt="img 9">
+                        <div class="card-body">
+                            <h3>Sodium Hypochlorite</h3>
+                            <p>For Surface Cleaning</p>
+                            <h5>Stock Available</h5>
+                        </div>
+                    </div>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/10.jpg" class="card-img-top" alt="img 10">
+                        <div class="card-body">
+                            <h3>Hand Wash</h3>
+                            <h5>Stock Available</h5>
+                        </div>
+                    </div>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/11.jpg" class="card-img-top" alt="img 11">
+                        <div class="card-body">
+                            <h3>Hand Gloves</h3>
+                            <h5>Stock Available</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <div id="ayur">
-            <div id="ayurveda" class="product_flex">
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/21.jpg" class="card-img-top" alt="img 11">
-                    <div class="card-body">
-                        <h3>Immunity Booster</h3>
-                        <p>Shat-Plus</p>
-                        <h5>Stock Available</h5>
+                <div id="ayurveda" class="product_flex">
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/21.jpg" class="card-img-top" alt="img 11">
+                        <div class="card-body">
+                            <h3>Immunity Booster</h3>
+                            <p>Shat-Plus</p>
+                            <h5>Stock Available</h5>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/22.jpg" class="card-img-top" alt="img 11">
-                    <div class="card-body">
-                        <h3>Immunity Booster</h3>
-                        <p>Curkey</p>
-                        <h5>Stock Available</h5>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/22.jpg" class="card-img-top" alt="img 11">
+                        <div class="card-body">
+                            <h3>Immunity Booster</h3>
+                            <p>Curkey</p>
+                            <h5>Stock Available</h5>
+                        </div>
                     </div>
                 </div>
-            </div></div>
+            </div>
 
             <div id="surgi">
-            <div id="surgical" class="product_flex">
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/23.jpg" class="card-img-top" alt="img 11">
-                    <div class="card-body">
-                        <h3>Catheters</h3>
-                        <h5>Stock Available</h5>
+                <div id="surgical" class="product_flex">
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/23.jpg" class="card-img-top" alt="img 11">
+                        <div class="card-body">
+                            <h3>Catheters</h3>
+                            <h5>Stock Available</h5>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/24.jpg" class="card-img-top" alt="img 11">
-                    <div class="card-body">
-                        <h3>Dialyzer & Tubing</h3>
-                        <h5>Stock Available</h5>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/24.jpg" class="card-img-top" alt="img 11">
+                        <div class="card-body">
+                            <h3>Dialyzer & Tubing</h3>
+                            <h5>Stock Available</h5>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/25.jpg" class="card-img-top" alt="img 11">
-                    <div class="card-body">
-                        <h3>Biopsy Gun</h3>
-                        <h5>Stock Available</h5>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/25.jpg" class="card-img-top" alt="img 11">
+                        <div class="card-body">
+                            <h3>Biopsy Gun</h3>
+                            <h5>Stock Available</h5>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/26.jpg" class="card-img-top" alt="img 11">
-                    <div class="card-body">
-                        <h3>Pump Cath</h3>
-                        <h5>Stock Available</h5>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/26.jpg" class="card-img-top" alt="img 11">
+                        <div class="card-body">
+                            <h3>Pump Cath</h3>
+                            <h5>Stock Available</h5>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/27.jpg" class="card-img-top" alt="img 11">
-                    <div class="card-body">
-                        <h3>Surgical Gloves</h3>
-                        <h5>Stock Available</h5>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/27.jpg" class="card-img-top" alt="img 11">
+                        <div class="card-body">
+                            <h3>Surgical Gloves</h3>
+                            <h5>Stock Available</h5>
+                        </div>
                     </div>
                 </div>
-            </div></div>
+            </div>
 
             <div id="immu">
-            <div id="immun" class="product_flex">
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/28.jpg" class="card-img-top" alt="img 11">
-                    <div class="card-body">
-                        <h3>Immunoglobulins</h3>
-                        <h5>Stock Available</h5>
+                <div id="immun" class="product_flex">
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/28.jpg" class="card-img-top" alt="img 11">
+                        <div class="card-body">
+                            <h3>Immunoglobulins</h3>
+                            <h5>Stock Available</h5>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/29.jpg" class="card-img-top" alt="img 11">
-                    <div class="card-body">
-                        <h3>Vaccines</h3>
-                        <h5>Stock Available</h5>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/29.jpg" class="card-img-top" alt="img 11">
+                        <div class="card-body">
+                            <h3>Vaccines</h3>
+                            <h5>Stock Available</h5>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/30.jpg" class="card-img-top" alt="img 11">
-                    <div class="card-body">
-                        <h3>Albumins</h3>
-                        <h5>Stock Available</h5>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/30.jpg" class="card-img-top" alt="img 11">
+                        <div class="card-body">
+                            <h3>Albumins</h3>
+                            <h5>Stock Available</h5>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/31.jpg" class="card-img-top" alt="img 11">
-                    <div class="card-body">
-                        <h3>Monoclonal Antibodies</h3>
-                        <h5>Stock Available</h5>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/31.jpg" class="card-img-top" alt="img 11">
+                        <div class="card-body">
+                            <h3>Monoclonal Antibodies</h3>
+                            <h5>Stock Available</h5>
+                        </div>
                     </div>
                 </div>
-            </div></div>
+            </div>
 
             <div id="others">
-            <div id="other" class="product_flex">
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/32.jpg" class="card-img-top" alt="img 11">
-                    <div class="card-body">
-                        <h3>Patient Benefit Programs</h3>
-                        <h5>Stock Available</h5>
+                <div id="other" class="product_flex">
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/32.jpg" class="card-img-top" alt="img 11">
+                        <div class="card-body">
+                            <h3>Patient Benefit Programs</h3>
+                            <h5>Stock Available</h5>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/33.jpg" class="card-img-top" alt="img 11">
-                    <div class="card-body">
-                        <h3>Loyalty Programs</h3>
-                        <h5>Stock Available</h5>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/33.jpg" class="card-img-top" alt="img 11">
+                        <div class="card-body">
+                            <h3>Loyalty Programs</h3>
+                            <h5>Stock Available</h5>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/34.jpg" class="card-img-top" alt="img 11">
-                    <div class="card-body">
-                        <h3>Counselling for Medicines</h3>
-                        <h5>Stock Available</h5>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/34.jpg" class="card-img-top" alt="img 11">
+                        <div class="card-body">
+                            <h3>Counselling for Medicines</h3>
+                            <h5>Stock Available</h5>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card products_cards" style="width: 25rem; height: 25rem;">
-                    <img src="imgs/products_img/35.jpg" class="card-img-top" alt="img 11">
-                    <div class="card-body">
-                        <h3>Export Quality Medicines</h3>
-                        <h5>Stock Available</h5>
+                    <div class="card products_cards" style="width: 25rem; height: 25rem;">
+                        <img src="imgs/products_img/35.jpg" class="card-img-top" alt="img 11">
+                        <div class="card-body">
+                            <h3>Export Quality Medicines</h3>
+                            <h5>Stock Available</h5>
+                        </div>
                     </div>
                 </div>
-            </div></div>
+            </div>
         </div>
     </div>
-
-
-
-
-
-
 
     <!-- our clients sections -->
     <div class="container">

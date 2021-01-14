@@ -14,8 +14,11 @@ body{
     font-family: 'Comic Neue', cursive;
 }
 
+nav ul{
+    text-align: right;
+}
 #main_heading{
-    font-size: 27px;
+    font-size: 23px;
     color: whitesmoke;
     margin: 10px;
     font-family: 'Rubik', sans-serif;
@@ -43,7 +46,9 @@ body{
     opacity: .9;
     box-shadow: 8px 10px 35px black;
 }
-
+.image_slider{
+    z-index: -1;
+}
 
 .distance{
     margin-left: 50px;
@@ -214,22 +219,25 @@ footer{
 }
 
 .about{
-    padding: 10%;
+    padding: 8%;
+    border-radius: 10px;
     background-color: whitesmoke;
-    box-shadow: -10px -10px 85px black;
+    box-shadow: 10px 10px 85px black;
 }
 
 .box{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 .about_us{    
     width: 300px;
-    height: 220px;
-    padding: 50px;
+    height: 300px;
+    padding: 30px;
+    text-align:center;
+    border-radius: 10px;
     background-color: whitesmoke;
     box-shadow: -10px -10px 85px black;
     margin: 5px;
@@ -287,10 +295,17 @@ form{
     justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: whitesmoke;
+    border-radius: 5px;
     box-shadow: 10px 10px 85px black;
-
+}
+.location p{
+    font-size: 12px;
 }
 
+form{
+    border-radius: 5px;
+
+}
 /* our products section  */
 .fixed_product_row{
     overflow: hidden;
