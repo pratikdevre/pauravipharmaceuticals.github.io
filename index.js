@@ -65,7 +65,7 @@ function allo_fun() {
     surgical_id.style.backgroundColor = "whitesmoke";
 }
 function ayur_fun() {
-    covid.style.display = "block";
+    covid.style.display = "none";
     ayurveda.style.display = "block";
     ayurveda_id.style.backgroundColor = "black";
     surgical.style.display = "none";
